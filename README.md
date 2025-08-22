@@ -60,12 +60,12 @@
 
 ### 🚀 Featured Projects  
 <p align="left">
-<a href="https://github.com/Srujan253/your-best-fullstack-app">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=your-best-fullstack-app&theme=dark" />
+<a href="https://github.com/Srujan253/gupshup">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=gupshup&theme=dark" />
 </a>
-<a href="https://github.com/Srujan253/your-datascience-project">
+<!-- <a href="https://github.com/Srujan253/your-datascience-project">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=your-datascience-project&theme=dark" />
-</a>
+</a> -->
 </p>
 
 ---
