@@ -3,7 +3,7 @@
 <h3 align="center">🚀 Aspiring Data Scientist | 💻 MERN Stack Developer | 🔐 Cybersecurity Student</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C9A7&center=true&vCenter=true&lines=Data+Science+Enthusiast;Full+Stack+Web+Developer;Cybersecurity+Learner;Always+Learning+New+Things" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C9A7&center=true&vCenter=true&lines=Data+Science+Enthusiast;Full+Stack+Web+Developer;;Always+Learning+New+Things" />
 </p>
 
 ---
