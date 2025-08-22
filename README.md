@@ -10,10 +10,17 @@
 
 ### 🌐 Connect with me  
 <p align="left">
-<a href="https://linkedin.com/in/srujan" target="blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" /></a>
-<a href="mailto:srujan@example.com"><img src="https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://twitter.com/srujan" target="blank"><img src="https://img.shields.io/badge/-Twitter-black?style=for-the-badge&logo=twitter" /></a>
+  <a href="https://www.linkedin.com/in/srujan-h-m-a51940321" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:srujanhm135@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/srujankulal_18" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
 </p>
+
 
 ---
 
