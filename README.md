@@ -73,7 +73,7 @@
 ---
 
 ### 🏆 GitHub Trophies
-![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=5&margin-w=15)
+![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15)
 
 <!-- Backup with default theme -->
 
