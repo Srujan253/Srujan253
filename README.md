@@ -51,7 +51,10 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)  
 
 ### 🔥 Streak Stats  
-![GitHub Streak](https://streak-stats.demolab.com?user=Srujan253&theme=dark&border_radius=5&date_format=j%20M%5B%20Y%5D)  
+![GitHub Streak](https://streak-stats.demolab.com?user=Srujan253&theme=dark&border_radius=5&date_format=j%20M%5B%20Y%5D)
+
+<!-- Backup if above link fails -->
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
 
 ### 📈 Activity Graph  
 ![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
@@ -70,8 +73,12 @@
 
 ---
 
-### 🏆 GitHub Trophies  
-![Trophies](https://github-profile-trophy.vercel.app/?username=Srujan253&theme=onedark&no-frame=true&margin-w=10)  
+### 🏆 GitHub Trophies
+![Trophies](https://github-profile-trophy.vercel.app/?username=Srujan253&theme=onedark&no-frame=true&margin-w=10)
+
+<!-- Backup with default theme -->
+![Trophies](https://github-profile-trophy.vercel.app/?username=Srujan253)
+
 
 ---
 
