@@ -73,10 +73,9 @@
 ---
 
 ### 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=Srujan253&theme=onedark)
+![Trophies](https://github-profile-trophy.vercel.app/?username=Srujan253)
 
 <!-- Backup with default theme -->
-![Trophies](https://github-profile-trophy.vercel.app/?username=Srujan253)
 
 
 ---
