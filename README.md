@@ -45,7 +45,7 @@
 ---
 
 ### 📊 GitHub Stats  
-![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Srujan253&theme=dark&show_icons=true&count_private=true&include_all_commits=true)  
+![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=srujan253&theme=dark&show_icons=true&count_private=true&include_all_commits=true)  
 
 ### 📌 Top Languages  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)  
