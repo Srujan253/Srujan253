@@ -57,7 +57,14 @@
 ### 🔥 Streak Stats  
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
 
-### 📈 Activity Graph  
+---
+
+### 📈 Contribution Graph
+<p align="center">
+  <img src="https://github-contributions.vercel.app/api?username=srujan253&theme=dark_title" />
+</p>
+
+### 📉 Activity Graph  
 ![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
 
 ---
