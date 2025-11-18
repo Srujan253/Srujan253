@@ -71,6 +71,8 @@
 </p>
 
 ---
+  ### 👀 Profile Views
+  ![](https://komarev.com/ghpvc/?username=nithinpoojary&color=blueviolet&style=flat-square&label=Profile+Views)
 
 ### 🏆 GitHub Trophies
 ![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15)
