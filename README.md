@@ -51,8 +51,7 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)  
 
 ### 🔥 Streak Stats  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Srujan253)](https://git.io/streak-stats)
 <!-- Backup if above link fails -->
 
 ### 📈 Activity Graph  
