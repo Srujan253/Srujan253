@@ -24,10 +24,26 @@
 ---
 
 ### 🛠️ Tech Stack using Skill Icons  
+
+**Languages:**  
 <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,java,react,express,mongodb,nodejs,tensorflow,sklearn,aws,azure" />
-  </a>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,js,java&perline=3&size=35" />
+  </a>
+</p>
+
+**Frameworks & Tools (MERN):**  
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,express,mongodb,nodejs&perline=4&size=35" />
+  </a>
+</p>
+
+**Data Science & Cloud:**  
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=tensorflow,sklearn,aws,azure&perline=4&size=35" />
+  </a>
 </p>
 
 ---
