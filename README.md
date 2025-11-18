@@ -60,9 +60,9 @@
 ---
 
 ### 📈 Contribution Graph
-<p align="center">
-  <img src="https://github-contributions.vercel.app/api?username=srujan253&theme=dark_title" />
-</p>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srujan253&theme=github_dark" alt="Contribution Graph" />
+</div>
 
 ### 📉 Activity Graph  
 ![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
