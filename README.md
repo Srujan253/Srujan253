@@ -1,235 +1,84 @@
-<div align="center">
-
-# 👋 Hey there! I'm Srujan
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00C9A7&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Aspiring+Data+Scientist+%F0%9F%93%8A;MERN+Stack+Developer+%F0%9F%92%BB" alt="Typing SVG" />
+<!-- Header with Typing Banner -->
+<h1 align="center">Hi 👋, I'm Srujan</h1>
+<h3 align="center">🚀 Aspiring Data Scientist | 💻 MERN Stack Developer </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=500&color=58A6FF&center=true&vCenter=true&width=435&lines=Building+intelligent+systems+%F0%9F%A4%96;Crafting+seamless+web+experiences+%E2%9C%A8;Turning+data+into+insights+%F0%9F%93%88;Always+curious%2C+always+learning+%F0%9F%9A%80" alt="Dynamic Typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C9A7&center=true&vCenter=true&lines=Data+Science+Enthusiast;Full+Stack+Web+Developer;;Always+Learning+New+Things" />
 </p>
 
 ---
 
-### 🌐 Let's Connect
+### 🌐 Connect with me  
+<p align="left">
+  <a href="https://www.linkedin.com/in/srujan-h-m-a51940321" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:srujanhm135@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/srujankulal_18" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
 
-<a href="https://www.linkedin.com/in/srujan-h-m-a51940321" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+
+---
+
+### 🛠️ Tech Stack  
+**Languages:**  
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge) 
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge) 
+![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=for-the-badge)  
+
+**Frameworks & Tools:**  
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=for-the-badge) 
+![Express](https://img.shields.io/badge/-Express-000000?logo=express&logoColor=white&style=for-the-badge) 
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge) 
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge)  
+
+**Data Science & Cloud:**  
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge) 
+![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge) 
+![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=white&style=for-the-badge) 
+![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoft-azure&logoColor=white&style=for-the-badge)  
+
+---
+
+### 📊 GitHub Stats  
+![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=srujan253&theme=dark&show_icons=true&count_private=true&include_all_commits=true)  
+
+### 📌 Top Languages  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)  
+
+### 🔥 Streak Stats  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
+
+<!-- Backup if above link fails -->
+
+### 📈 Activity Graph  
+![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
+
+---
+
+### 🚀 Featured Projects  
+<p align="left">
+<a href="https://github.com/Srujan253/gupshup">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=gupshup&theme=dark" />
 </a>
-<a href="mailto:srujanhm135@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
-<a href="https://instagram.com/srujankulal_18" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-</a>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Srujan253&color=00C9A7&style=for-the-badge&label=PROFILE+VIEWS)
-
-</div>
+<!-- <a href="https://github.com/Srujan253/your-datascience-project">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=your-datascience-project&theme=dark" />
+</a> -->
+</p>
 
 ---
 
-## 🚀 About Me
+### 🏆 GitHub Trophies
+![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15)
 
-<table>
-<tr>
-<td width="50%">
+<!-- Backup with default theme -->
 
-```python
-class Srujan:
-    def __init__(self):
-        self.username = "Srujan253"
-        self.role = "Data Scientist & Full Stack Developer"
-        self.location = "Gadag, Karnataka, IN"
-        self.currently_learning = [
-            "Advanced ML Algorithms",
-            "System Design",
-            "DevOps"
-        ]
-    
-    def get_interests(self):
-        return [
-            "🤖 Machine Learning",
-            "🌐 Web Development", 
-            "☁️ Cloud Computing",
-            "📊 Data Analysis"
-        ]
-    
-    def say_hi(self):
-        print("Thanks for dropping by!")
-        print("Let's build something amazing! 🚀")
-
-me = Srujan()
-me.say_hi()
-```
-
-</td>
-<td width="50%">
-
-### 🎯 Quick Facts
-
-- 🔭 Currently working on **ML & Full Stack Projects**
-- 🌱 Learning **Advanced Algorithms & System Design**
-- 💡 Ask me about **Python, React, Data Science**
-- ⚡ Fun fact: **I debug with print statements and I'm not ashamed! 😄**
-- 📫 Reach me: **srujanhm135@gmail.com**
-
-</td>
-</tr>
-</table>
 
 ---
 
-## 🛠️ Tech Arsenal
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 💻 Programming Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### 🌐 Web Development
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 Data Science & ML
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-### ☁️ Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Srujan253&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=C9D1D9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00C9A7&text_color=C9D1D9&langs_count=8"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00C9A7&fire=00C9A7&currStreakLabel=00C9A7" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=github-compact&hide_border=true&bg_color=0D1117&color=00C9A7&line=00C9A7&point=FFFFFF&area=true" alt="Activity Graph" />
-</div>
-
----
-
-## 🏆 GitHub Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Srujan253&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies" />
-</div>
-
----
-
-## 🎯 Featured Projects
-
-<div align="center">
-
-[![GupShup](https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=gupshup&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=C9D1D9)](https://github.com/Srujan253/gupshup)
-
-</div>
-
-<div align="center">
-  
-### 💡 More Projects Coming Soon!
-
-*Working on exciting ML models and full-stack applications*
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srujan253&theme=github_dark" alt="Contribution Graph" />
-</div>
-
----
-
-## 💭 Random Dev Quote
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-## 📫 Get In Touch
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/email-open.png" width="50"/>
-<br><strong>Email</strong>
-<br><a href="mailto:srujanhm135@gmail.com">srujanhm135@gmail.com</a>
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/linkedin.png" width="50"/>
-<br><strong>LinkedIn</strong>
-<br><a href="https://www.linkedin.com/in/srujan-h-m-a51940321">Connect with me</a>
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/instagram-new.png" width="50"/>
-<br><strong>Instagram</strong>
-<br><a href="https://instagram.com/srujankulal_18">@srujankulal_18</a>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 Let's Collaborate!
-
-*I'm always open to interesting projects and collaboration opportunities.*
-
-**📧 Reach out:** [srujanhm135@gmail.com](mailto:srujanhm135@gmail.com)
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&fontSize=0" width="100%"/>
-
-**✨ Made with 💙 by Srujan**
-
-</div>
+### ✍️ Quote of the Day  
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)  
