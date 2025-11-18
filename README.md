@@ -106,7 +106,7 @@ me.say_hi()
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+<!-- <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Srujan253&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00C9A7&icon_color=00C9A7&text_color=C9D1D9"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00C9A7&text_color=C9D1D9&langs_count=8"/>
 </div>
@@ -117,8 +117,13 @@ me.say_hi()
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=github-compact&hide_border=true&bg_color=0D1117&color=00C9A7&line=00C9A7&point=FFFFFF&area=true" alt="Activity Graph" />
-</div>
-
+</div> -->
+![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=srujan253&theme=dark&show_icons=true&count_private=true&include_all_commits=true)  
+### 📌 Top Languages  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)  
+### 🔥 Streak Stats  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
+<!-- Backup if above link fails -->
 ---
 
 ## 🏆 GitHub Achievements
