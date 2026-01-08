@@ -25,28 +25,53 @@
 
 ### 🛠️ Tech Stack using Skill Icons  
 
-**Languages:**  
-<p align="left">
+### 💻 Web Development
+
+**Frontend** <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,java&perline=3&size=35" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,react&perline=4" />
   </a>
 </p>
 
-**Frameworks & Tools (MERN):**  
-<p align="left">
+* **Core:** HTML5, CSS3, JavaScript (ES6+)
+* **Concepts:** Responsive Web Design, State & Props Management, Basic UI/UX
+
+**Backend & Databases** <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,express,mongodb,nodejs&perline=4&size=35" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,mysql&perline=5" />
   </a>
 </p>
 
-**Data Science & Cloud:**  
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=tensorflow,sklearn,aws,azure&perline=4&size=35" />
-  </a>
-</p>
+* **Server:** Node.js, Express.js, RESTful API Development
+* **Auth:** JWT, Firebase Auth
+* **Data:** MongoDB, Firestore, Basic SQL Concepts
 
 ---
+
+### 📊 Data Science & Machine Learning
+
+**Core Stack** <p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,sklearn,tensorflow&perline=3" />
+  </a>
+</p>
+
+* **Analysis:** NumPy, Pandas, Data Cleaning & Preprocessing, EDA
+* **Visualization:** Matplotlib, Seaborn
+* **Machine Learning:** Supervised/Unsupervised Learning, Model Training & Evaluation
+
+---
+
+### 🛠️ Tools & Deployment
+
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,postman,aws,azure,vercel,netlify&perline=7" />
+  </a>
+</p>
+
+* **DevOps:** Git, GitHub, Postman (API Testing)
+* **Cloud:** AWS, Azure, Firebase Hosting, Netlify, Vercel
 
 ### 📊 GitHub Stats  
 ![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=srujan253&theme=dark&show_icons=true&count_private=true&include_all_commits=true)  
