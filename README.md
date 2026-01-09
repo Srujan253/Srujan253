@@ -96,7 +96,7 @@
 
 <p align="left">
   <a href="https://github.com/Srujan253/gupshup">
-    <img src="https://socialify.git.ci/Srujan253/gupshup/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="gupshup" />
+    <img src="https://opengraph.githubassets.com/1/Srujan253/gupshup" alt="gupshup" />
   </a>
 </p>
 
