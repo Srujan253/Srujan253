@@ -93,10 +93,9 @@
 ![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
 
 ---
-
 <p align="left">
   <a href="https://github.com/Srujan253/gupshup">
-    <img src="https://opengraph.githubassets.com/1/Srujan253/gupshup" alt="gupshup" />
+    <img src="https://github-readme-repo-card.vercel.app/pin?name=Srujan253/gupshup&theme=dark" />
   </a>
 </p>
 
