@@ -94,16 +94,15 @@
 
 ---
 
-### 🚀 Featured Projects  
 <p align="left">
-<a href="https://github.com/Srujan253/gupshup">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srujan253&repo=gupshup&theme=dark" />
-</a>
+  <a href="https://github.com/Srujan253/gupshup">
+    <img src="https://socialify.git.ci/Srujan253/gupshup/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="gupshup" />
+  </a>
 </p>
 
 ---
-  ### 👀 Profile Views
-  ![](https://komarev.com/ghpvc/?username=Srujan253&color=blueviolet&style=flat-square&label=Profile+Views)
+### 👀 Profile Views
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSrujan253&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)
 
 ### 🏆 GitHub Trophies
 ![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15)
