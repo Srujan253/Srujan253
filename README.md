@@ -73,14 +73,14 @@
 * **DevOps:** Git, GitHub, Postman (API Testing)
 * **Cloud:** AWS, Azure, Firebase Hosting, Netlify, Vercel
 
-### 📊 GitHub Stats  
-![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=srujan253&theme=dark&show_icons=true&count_private=true&include_all_commits=true)  
+### 📊 GitHub Stats
+![Srujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=srujan253&theme=dark&show_icons=true&include_all_commits=true)
 
-### 📌 Top Languages  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)  
+### 📌 Top Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Srujan253&theme=dark&layout=compact&hide=html)
 
-### 🔥 Streak Stats  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
+### 🔥 Streak Stats
+![GitHub Streak](https://streak-stats.demolab.com?user=Srujan253&theme=dark&date_format=j%20M%5B%20Y%5D)
 
 ---
 
