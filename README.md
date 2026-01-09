@@ -73,11 +73,14 @@
 * **DevOps:** Git, GitHub, Postman (API Testing)
 * **Cloud:** AWS, Azure, Firebase Hosting, Netlify, Vercel
 
-### 📊 GitHub Stats (Metrics)
-![Metrics Stats](https://metrics.lecoq.io/Srujan253?template=classic&base=header,activity,community,repositories,metadata&config_timezone=Asia%2FKolkata)
+### 📊 Stats Card
+![Stats Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srujan253&theme=dark)
 
-### 📌 Top Languages (Metrics)
-![Metrics Languages](https://metrics.lecoq.io/Srujan253?template=classic&base=false&languages=1&languages_limit=8)
+### 📌 Languages Card
+![Languages Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Srujan253&theme=dark)
+
+### 🔥 Commits Graph
+![Commit Graph](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Srujan253&theme=dark)
 
 ---
 
