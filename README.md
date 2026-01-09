@@ -101,7 +101,7 @@
 
 ---
 ### 👀 Profile Views
-![Moe Counter](https://count.getloli.com/get/@Srujan253?theme=rule34)
+![Moe Counter](https://count.getloli.com/get/@Srujan253?theme=booru-r6gdrawfriends)
 ### 🏆 GitHub Trophies
 ![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15)
 
