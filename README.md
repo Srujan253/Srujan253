@@ -18,7 +18,7 @@
   <a href="https://instagram.com/srujankulal_18" target="_blank">
     <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="https://leetcode.com/u/SrujanHM/" target="_blank">
+  <a href="https://leetcode.com/SrujanHM/" target="_blank">
     <img src="https://img.shields.io/badge/-LeetCode-FFA500?style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
 </p>
