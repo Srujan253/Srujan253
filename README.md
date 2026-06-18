@@ -21,6 +21,9 @@
   <a href="https://leetcode.com/SrujanHM/" target="_blank">
     <img src="https://img.shields.io/badge/-LeetCode-FFA500?style=for-the-badge&logo=leetcode&logoColor=white" />
   </a>
+  <a href="https://www.hackerrank.com/profile/NNM24CB506" target="_blank">
+    <img src="https://img.shields.io/badge/-HackerRank-2EA44F?style=for-the-badge&logo=hackerrank&logoColor=white" />
+  </a>
 </p>
 
 
