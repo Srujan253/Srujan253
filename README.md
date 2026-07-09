@@ -79,8 +79,6 @@
 * **DevOps:** Git, GitHub, Postman (API Testing)
 * **Cloud:** AWS, Azure, Firebase Hosting, Netlify, Vercel
 
-### 📊 Stats Card
-![Stats Card](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srujan253&theme=dark)
 
 ### 📌 Languages Card
 ![Languages Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Srujan253&theme=dark)
