@@ -93,7 +93,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srujan253&theme=github_dark" alt="Contribution Graph" />
 </div>
 
-### 📉 Activity Graph  
+### 📉  Activity Graph  
 ![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
 
 ---
