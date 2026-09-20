@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Srujan </h1>
-<h3 align="center">🚀 Aspiring Data Scientist | 💻 MERN Stack Developer </h3>
+<h3 align="center">🚀 Aspiring Data Scientist | 💻 MERN Stack Developer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C9A7&center=true&vCenter=true&lines=Data+Science+Enthusiast;Full+Stack+Web+Developer;;Always+Learning+New+Things" />
