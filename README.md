@@ -1,115 +1,149 @@
-<h1 align="center">Hi 👋, I'm Srujan </h1>
-<h3 align="center">🚀 Aspiring Data Scientist | 💻 MERN Stack Developer</h3>
+<h1 align="center">Hi 👋, I'm Srujan</h1>
+<h3 align="center">🚀 Aspiring Data Scientist &nbsp;|&nbsp; 💻 MERN Stack Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C9A7&center=true&vCenter=true&lines=Data+Science+Enthusiast;Full+Stack+Web+Developer;;Always+Learning+New+Things" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C9A7&center=true&vCenter=true&lines=Data+Science+Enthusiast;Full+Stack+Web+Developer;Always+Learning+New+Things" alt="Typing SVG" />
 </p>
 
----
-
-### 🌐 Connect with me  
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/srujan-h-m-a51940321" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:srujanhm135@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/srujankulal_18" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://leetcode.com/SrujanHM/" target="_blank">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA500?style=for-the-badge&logo=leetcode&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   <a href="https://www.hackerrank.com/profile/NNM24CB506" target="_blank">
-    <img src="https://img.shields.io/badge/-HackerRank-2EA44F?style=for-the-badge&logo=hackerrank&logoColor=white" />
+    <img src="https://img.shields.io/badge/-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
+  </a>
+  <a href="https://instagram.com/srujankulal_18" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
-
 
 ---
 
-### 🛠️ Tech Stack using Skill Icons  
+<!-- Living Art: Git Bonsai (Left) & Git Koi (Right) -->
+<picture>
+  <img align="left" width="45%" src="assets/riser.svg" alt="">
+</picture>
+<a href="https://github.com/yalongwastaken/git-koi">
+  <img src="koi/koi.gif" align="right" width="45%" alt="My koi, redrawn every night from the day's activity">
+</a>
+<picture>
+  <img align="right" width="5%" src="assets/divider.svg" alt="">
+</picture>
+<picture>
+  <img align="left" width="8%" src="assets/spacer.svg" alt="">
+</picture>
+<a href="https://egorthinks.github.io/git-bonsai/?u=Srujan253">
+  <img src="output/bonsai.gif" align="left" width="37%" alt="My GitHub bonsai swaying in the wind, petals falling — click to open the interactive playground">
+</a>
+<br clear="all">
 
-### 💻 Web Development
-
-**Frontend** <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,react&perline=4" />
-  </a>
+<p align="center">
+  <i>🌳 <b>GitHub Bonsai</b> nurtured by code commits &nbsp;&bull;&nbsp; 🐟 <b>Living Koi</b> swimming with daily activity</i>
 </p>
-
-* **Core:** HTML5, CSS3, JavaScript (ES6+)
-* **Concepts:** Responsive Web Design, State & Props Management, Basic UI/UX
-
-**Backend & Databases** <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,mysql&perline=5" />
-  </a>
-</p>
-
-* **Server:** Node.js, Express.js, RESTful API Development
-* **Auth:** JWT, Firebase Auth
-* **Data:** MongoDB, Firestore, Basic SQL Concepts
 
 ---
 
-### 📊 Data Science & Machine Learning
+### 📊 GitHub & Problem Solving Metrics
 
-**Core Stack** <p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,sklearn,tensorflow&perline=3" />
-  </a>
-</p>
+<a href="https://github.com/Srujan253#year-list-container">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="cards/stats-dark.svg">
+    <img src="cards/stats-light.svg" align="left" width="48%" alt="Srujan's GitHub stats">
+  </picture>
+</a>
+<a href="https://github.com/Srujan253?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="cards/languages-dark.svg">
+    <img src="cards/languages-light.svg" align="right" width="48%" alt="Languages by repo count">
+  </picture>
+</a>
+<br clear="all">
 
-* **Analysis:** NumPy, Pandas, Data Cleaning & Preprocessing, EDA
-* **Visualization:** Matplotlib, Seaborn
-* **Machine Learning:** Supervised/Unsupervised Learning, Model Training & Evaluation
+<br>
 
----
-
-### 🛠️ Tools & Deployment
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,postman,aws,azure,vercel,netlify&perline=7" />
-  </a>
-</p>
-
-* **DevOps:** Git, GitHub, Postman (API Testing)
-* **Cloud:** AWS, Azure, Firebase Hosting, Netlify, Vercel
-
-
-### 📌 Languages Card
-![Languages Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Srujan253&theme=dark)
-
-### 🔥 Commits Graph
-![Commit Graph](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Srujan253&theme=dark)
-
----
-
-### 📈 Contribution Graph
+<!-- LeetCode Stats Card (Adaptive Light/Dark) -->
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Srujan253&theme=github_dark" alt="Contribution Graph" />
+  <a href="https://leetcode.com/SrujanHM/" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/SrujanHM?theme=dark&font=baloo&ext=activity">
+      <img src="https://leetcard.jacoblin.cool/SrujanHM?theme=light&font=baloo&ext=activity" alt="Srujan's LeetCode Stats" />
+    </picture>
+  </a>
 </div>
 
-### 📉  Activity Graph  
-![Srujan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true)  
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Srujan253&theme=react-dark&hide_border=false&area=true" alt="Srujan's Activity Graph" width="95%" />
+</div>
 
 ---
+
+### 🛠️ Tech Stack
+
+#### 💻 Web Development
+- **Frontend**
+  <p align="left">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=html,css,js,react&perline=4" alt="Frontend Skills" />
+    </a>
+  </p>
+  *Core:* HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, State & Props Management, UI/UX
+
+- **Backend & Databases**
+  <p align="left">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,mysql&perline=5" alt="Backend Skills" />
+    </a>
+  </p>
+  *Core:* Node.js, Express.js, RESTful APIs, JWT, Firebase Auth, MongoDB, Firestore, MySQL
+
+#### 📊 Data Science & Machine Learning
+- **Core Stack**
+  <p align="left">
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=py,sklearn,tensorflow&perline=3" alt="Data Science Skills" />
+    </a>
+  </p>
+  *Core:* NumPy, Pandas, Data Cleaning, EDA, Matplotlib, Seaborn, Supervised & Unsupervised Learning, Model Training & Evaluation
+
+#### ⚙️ DevOps, Cloud & Tools
 <p align="left">
-  <a href="https://github.com/Srujan253/gupshup">
-    <img src="https://github-readme-repo-card.vercel.app/pin?name=Srujan253/gupshup&theme=dark" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,postman,aws,azure,vercel,netlify&perline=7" alt="Tools & Cloud" />
   </a>
 </p>
 
 ---
-### 👀 Profile Views
-![Moe Counter](https://count.getloli.com/get/@Srujan253?theme=booru-vp)
-### 🏆 GitHub Trophies
-![Trophies](https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15)
+
+### 🌟 Featured Projects
+
+<p align="left">
+  <a href="https://github.com/Srujan253/gupshup">
+    <img src="https://github-readme-repo-card.vercel.app/pin?name=Srujan253/gupshup&theme=dark" alt="Gupshup Project" />
+  </a>
+</p>
 
 ---
 
-### ✍️ Quote of the Day  
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+### 🏆 Achievements & GitHub Trophies
+
+<div align="center">
+  <img src="https://github-trophies.vercel.app/?username=Srujan253&theme=dracula&column=7&margin-w=15" alt="GitHub Trophies" />
+</div>
+
+---
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote of the Day" />
+</p>
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@Srujan253?theme=booru-vp" alt="Profile Views" />
+</p>
