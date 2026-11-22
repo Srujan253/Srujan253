@@ -11,17 +11,23 @@ on:
 permissions:
   contents: write
 
-concurrency: koi
+concurrency:
+  group: koi-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   koi:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: yalongwastaken/git-koi@v1
         with:
           body: white
           output-dir: koi
+
       - name: Commit the koi if it changed
         shell: bash
         run: |
@@ -32,5 +38,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet --message "koi: draw the day's koi"
-          git push --quiet
+          git commit -m "koi: draw the day's koi"
+          git pull --rebase origin main
+          git push origin main

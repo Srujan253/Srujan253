@@ -11,13 +11,18 @@ on:
 permissions:
   contents: write
 
-concurrency: cards
+concurrency:
+  group: cards-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Draw the stats card, light
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
@@ -26,6 +31,7 @@ jobs:
           path: cards/stats-light.svg
           core_version: 2.2.0
           fail_on_error: "false"
+
       - name: Draw the stats card, dark
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
@@ -34,6 +40,7 @@ jobs:
           path: cards/stats-dark.svg
           core_version: 2.2.0
           fail_on_error: "false"
+
       - name: Draw the languages card, light
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
@@ -42,6 +49,7 @@ jobs:
           path: cards/languages-light.svg
           core_version: 2.2.0
           fail_on_error: "false"
+
       - name: Draw the languages card, dark
         uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
         with:
@@ -50,6 +58,7 @@ jobs:
           path: cards/languages-dark.svg
           core_version: 2.2.0
           fail_on_error: "false"
+
       - name: Commit the cards if they changed
         shell: bash
         run: |
@@ -60,5 +69,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit --quiet --message "cards: draw the day's cards"
-          git push --quiet
+          git commit -m "cards: draw the day's cards"
+          git pull --rebase origin main
+          git push origin main

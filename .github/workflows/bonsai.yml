@@ -24,11 +24,16 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - uses: egorthinks/git-bonsai@bec04c39f62731fdb28c3b82322ef21cbf3bdfac
         with:
           commit: 'false'
+
       - name: Recolor bonsai palette
         run: python3 scripts/recolor.py output
+
       - name: Commit the bonsai if changed
         shell: bash
         run: |
@@ -40,4 +45,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: tend the bonsai 🌳"
-          git push
+          git pull --rebase origin main
+          git push origin main
