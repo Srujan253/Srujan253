@@ -162,7 +162,7 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Srujan253&color=a98ff7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://count.getloli.com/get/@Srujan253?theme=booru-vp" alt="Profile Views" />
 </p>
 
 <div align="center">
