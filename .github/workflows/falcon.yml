@@ -2,7 +2,7 @@ name: Falcon
 
 on:
   schedule:
-    # Runs daily at 01:00 UTC, staggered away from Koi (00:20), Cards (00:40), and Bonsai (03:00)
+    # Runs daily at 01:00 UTC, staggered away from Cards (00:40)
     - cron: "0 1 * * *"
   workflow_dispatch:
   push:
@@ -31,25 +31,26 @@ jobs:
         with:
           workspaces: git-falcon
 
-      - name: Run git-falcon
+      - name: Run git-falcon studio (Falcon + Observatory + Orbit)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cargo run --manifest-path git-falcon/Cargo.toml --release -- \
             --github-user Srujan253 \
             --leetcode-user SrujanHM \
-            --output-dir falcon
+            --base-dir . \
+            --scene all
 
-      - name: Commit falcon updates
+      - name: Commit living ecosystem updates
         shell: bash
         run: |
-          git add falcon
+          git add falcon observatory orbit
           if git diff --cached --quiet; then
-            echo "Falcon unchanged — nothing to commit."
+            echo "Living ecosystem unchanged — nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "falcon: soar across the sky 🦅"
+          git commit -m "ecosystem: update observatory, orbit & sky falcon 🦅"
           git pull --rebase origin main
           git push origin main

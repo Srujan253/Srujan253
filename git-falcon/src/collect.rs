@@ -1,9 +1,16 @@
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, HashMap};
 use std::time::Duration;
 
 use chrono::{DateTime, Datelike, Utc};
 use serde::{Deserialize, Serialize};
 use serde_json::{json, Value};
+
+#[derive(Clone, Debug, Default, PartialEq, Eq, Serialize, Deserialize)]
+pub struct LanguageStat {
+    pub name: String,
+    pub repo_count: u32,
+    pub color_hex: String,
+}
 
 #[derive(Clone, Debug, Default, Serialize, Deserialize)]
 pub struct ActivitySnapshot {
@@ -17,14 +24,36 @@ pub struct ActivitySnapshot {
     pub leetcode_hard: u32,
     pub leetcode_total_solved: u32,
     pub leetcode_ranking: u32,
+    #[serde(default)]
+    pub languages: Vec<LanguageStat>,
+    #[serde(default)]
+    pub public_repo_count: u32,
 }
 
 fn http_agent() -> ureq::Agent {
     ureq::AgentBuilder::new()
         .timeout_read(Duration::from_secs(20))
         .timeout_connect(Duration::from_secs(10))
-        .user_agent("git-falcon/0.1")
+        .user_agent("git-falcon/0.2")
         .build()
+}
+
+pub fn default_language_color(lang: &str) -> &'static str {
+    match lang.to_ascii_lowercase().as_str() {
+        "python" => "#3572A5",
+        "javascript" => "#f1e05a",
+        "typescript" => "#3178c6",
+        "rust" => "#dea584",
+        "html" => "#e34c26",
+        "css" => "#563d7c",
+        "java" => "#b07219",
+        "c++" | "cpp" => "#f34b7d",
+        "c" => "#555555",
+        "go" => "#00ADD8",
+        "jupyter notebook" => "#DA5B0B",
+        "shell" => "#89e051",
+        _ => "#a98ff7",
+    }
 }
 
 pub fn collect_snapshot(
@@ -37,12 +66,17 @@ pub fn collect_snapshot(
     let today = Utc::now().date_naive();
     let observed_date = today.format("%Y-%m-%d").to_string();
 
-    let github_daily = match collect_github_daily(&agent, github_user, github_token, today.year()) {
-        Ok(days) if !days.is_empty() => days,
+    let gh_result = collect_github(&agent, github_user, github_token, today.year());
+    let (github_daily, languages, public_repo_count) = match gh_result {
+        Ok((days, langs, repos)) if !days.is_empty() => (days, langs, repos),
         Ok(_) | Err(_) => {
             if let Some(prev) = previous {
                 eprintln!("warning: using cached GitHub activity from previous snapshot");
-                prev.github_daily.clone()
+                (
+                    prev.github_daily.clone(),
+                    prev.languages.clone(),
+                    prev.public_repo_count,
+                )
             } else {
                 return Err(format!("failed to collect GitHub contributions for {github_user}"));
             }
@@ -54,6 +88,8 @@ pub fn collect_snapshot(
         leetcode_user: leetcode_user.unwrap_or_default().to_string(),
         observed_date,
         github_daily,
+        languages,
+        public_repo_count,
         ..Default::default()
     };
 
@@ -84,32 +120,43 @@ pub fn collect_snapshot(
     Ok(snapshot)
 }
 
-fn collect_github_daily(
+fn collect_github(
     agent: &ureq::Agent,
     username: &str,
     token: Option<&str>,
     current_year: i32,
-) -> Result<BTreeMap<String, u32>, String> {
+) -> Result<(BTreeMap<String, u32>, Vec<LanguageStat>, u32), String> {
     if let Some(tok) = token.filter(|t| !t.trim().is_empty()) {
-        if let Ok(days) = collect_github_graphql(agent, username, tok) {
+        if let Ok((days, langs, repos)) = collect_github_graphql(agent, username, tok) {
             if !days.is_empty() {
-                return Ok(days);
+                return Ok((days, langs, repos));
             }
         }
     }
-    collect_github_public_fallback(agent, username, current_year)
+    let days = collect_github_public_fallback(agent, username, current_year)?;
+    let (langs, repos) = collect_github_repos_rest(agent, username).unwrap_or_default();
+    Ok((days, langs, repos))
 }
 
 fn collect_github_graphql(
     agent: &ureq::Agent,
     username: &str,
     token: &str,
-) -> Result<BTreeMap<String, u32>, String> {
-    let years_query = r#"
+) -> Result<(BTreeMap<String, u32>, Vec<LanguageStat>, u32), String> {
+    let meta_query = r#"
         query($login: String!) {
           user(login: $login) {
             contributionsCollection {
               contributionYears
+            }
+            repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: PUSHED_AT, direction: DESC}) {
+              totalCount
+              nodes {
+                primaryLanguage {
+                  name
+                  color
+                }
+              }
             }
           }
         }
@@ -118,10 +165,10 @@ fn collect_github_graphql(
         .post("https://api.github.com/graphql")
         .set("Authorization", &format!("Bearer {token}"))
         .send_json(json!({
-            "query": years_query,
+            "query": meta_query,
             "variables": { "login": username }
         }))
-        .map_err(|e| format!("GitHub GraphQL years error: {e}"))?
+        .map_err(|e| format!("GitHub GraphQL meta error: {e}"))?
         .into_json()
         .map_err(|e| format!("GitHub GraphQL JSON parse error: {e}"))?;
 
@@ -131,6 +178,35 @@ fn collect_github_graphql(
         .iter()
         .filter_map(|v| v.as_i64().map(|y| y as i32))
         .collect();
+
+    let public_repo_count = resp["data"]["user"]["repositories"]["totalCount"]
+        .as_u64()
+        .unwrap_or(0) as u32;
+
+    let mut lang_counts: HashMap<String, (u32, String)> = HashMap::new();
+    if let Some(nodes) = resp["data"]["user"]["repositories"]["nodes"].as_array() {
+        for node in nodes {
+            if let Some(name) = node["primaryLanguage"]["name"].as_str() {
+                let color = node["primaryLanguage"]["color"]
+                    .as_str()
+                    .unwrap_or_else(|| default_language_color(name))
+                    .to_string();
+                let entry = lang_counts.entry(name.to_string()).or_insert((0, color));
+                entry.0 += 1;
+            }
+        }
+    }
+
+    let mut languages: Vec<LanguageStat> = lang_counts
+        .into_iter()
+        .map(|(name, (repo_count, color_hex))| LanguageStat {
+            name,
+            repo_count,
+            color_hex,
+        })
+        .collect();
+    languages.sort_by(|a, b| b.repo_count.cmp(&a.repo_count).then(a.name.cmp(&b.name)));
+    languages.truncate(5);
 
     let year_query = r#"
         query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -183,7 +259,49 @@ fn collect_github_graphql(
         }
     }
 
-    Ok(daily)
+    Ok((daily, languages, public_repo_count))
+}
+
+fn collect_github_repos_rest(
+    agent: &ureq::Agent,
+    username: &str,
+) -> Result<(Vec<LanguageStat>, u32), String> {
+    let url = format!("https://api.github.com/users/{username}/repos?per_page=100&type=owner");
+    let resp: Value = agent
+        .get(&url)
+        .call()
+        .map_err(|e| format!("GitHub REST repos error: {e}"))?
+        .into_json()
+        .map_err(|e| format!("GitHub REST repos parse error: {e}"))?;
+
+    let arr = resp
+        .as_array()
+        .ok_or_else(|| "expected array from GitHub repos REST".to_string())?;
+
+    let mut count = 0u32;
+    let mut lang_counts: HashMap<String, u32> = HashMap::new();
+    for repo in arr {
+        if repo["fork"].as_bool().unwrap_or(false) {
+            continue;
+        }
+        count += 1;
+        if let Some(lang) = repo["language"].as_str() {
+            *lang_counts.entry(lang.to_string()).or_insert(0) += 1;
+        }
+    }
+
+    let mut languages: Vec<LanguageStat> = lang_counts
+        .into_iter()
+        .map(|(name, repo_count)| LanguageStat {
+            color_hex: default_language_color(&name).to_string(),
+            name,
+            repo_count,
+        })
+        .collect();
+    languages.sort_by(|a, b| b.repo_count.cmp(&a.repo_count).then(a.name.cmp(&b.name)));
+    languages.truncate(5);
+
+    Ok((languages, count))
 }
 
 fn collect_github_public_fallback(
@@ -271,7 +389,7 @@ pub fn synthetic_snapshot() -> ActivitySnapshot {
         let d = today - chrono::Days::new(offset);
         let key = d.format("%Y-%m-%d").to_string();
         let gh = if offset % 5 == 0 {
-            12 // tests daily cap of 3
+            12
         } else if offset % 2 == 0 {
             2
         } else {
@@ -294,5 +412,33 @@ pub fn synthetic_snapshot() -> ActivitySnapshot {
         leetcode_hard: 4,
         leetcode_total_solved: 177,
         leetcode_ranking: 1_012_416,
+        languages: vec![
+            LanguageStat {
+                name: "JavaScript".to_string(),
+                repo_count: 9,
+                color_hex: "#f1e05a".to_string(),
+            },
+            LanguageStat {
+                name: "Python".to_string(),
+                repo_count: 6,
+                color_hex: "#3572A5".to_string(),
+            },
+            LanguageStat {
+                name: "HTML".to_string(),
+                repo_count: 4,
+                color_hex: "#e34c26".to_string(),
+            },
+            LanguageStat {
+                name: "Rust".to_string(),
+                repo_count: 2,
+                color_hex: "#dea584".to_string(),
+            },
+            LanguageStat {
+                name: "CSS".to_string(),
+                repo_count: 2,
+                color_hex: "#563d7c".to_string(),
+            },
+        ],
+        public_repo_count: 23,
     }
 }

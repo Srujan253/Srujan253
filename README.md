@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=21&duration=3500&color=A98FF7&center=true&vCenter=true&width=600&lines=Aspiring+Data+Scientist+%26+ML+Builder;Full-Stack+MERN+Web+Developer;Growing+a+Bonsai%2C+Koi+%26+Rust+Sky+Falcon" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=21&duration=3500&color=A98FF7&center=true&vCenter=true&width=600&lines=Aspiring+Data+Scientist+%26+ML+Builder;Full-Stack+MERN+Web+Developer;Building+Observatory%2C+Cosmic+Orbit+%26+Sky+Falcon" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -26,23 +26,16 @@
 
 ---
 
-<!-- Living Ecosystem: Git Bonsai (Left), Git Koi (Right), and Rust Sky Falcon (Panoramic Stage) -->
-<picture>
-  <img align="left" width="45%" src="assets/riser.svg" alt="">
-</picture>
-<a href="https://github.com/yalongwastaken/git-koi">
-  <img src="koi/koi.gif" align="right" width="45%" alt="My koi, redrawn every night from the day's activity">
-</a>
-<picture>
-  <img align="right" width="5%" src="assets/divider.svg" alt="">
-</picture>
-<picture>
-  <img align="left" width="8%" src="assets/spacer.svg" alt="">
-</picture>
-<a href="https://egorthinks.github.io/git-bonsai/?u=Srujan253">
-  <img src="output/bonsai.gif" align="left" width="37%" alt="My GitHub bonsai swaying in the wind, petals falling — click to open the interactive playground">
-</a>
-<br clear="all">
+<!-- Living Ecosystem: Developer Observatory (Left), Cosmic Language Orbit (Right), and Rust Sky Falcon (Panoramic Stage) -->
+<div align="center">
+  <a href="./git-falcon">
+    <img src="observatory/observatory.gif" width="48%" alt="Cozy Developer Observatory — live nocturnal workspace powered by Rust" />
+  </a>
+  &nbsp;
+  <a href="./git-falcon">
+    <img src="orbit/orbit.gif" width="48%" alt="Cosmic Language Orbit — top GitHub languages rendered as orbiting planets" />
+  </a>
+</div>
 
 <br>
 
@@ -53,7 +46,7 @@
 </div>
 
 <p align="center">
-  <i>🌳 <b>Bonsai</b> grown from commit history &nbsp;&bull;&nbsp; 🐟 <b>Koi</b> swimming with daily activity &nbsp;&bull;&nbsp; 🦅 <b>Rust Sky Falcon</b> leveled by capped daily commits (🍎) &amp; LeetCode (⭐)</i>
+  <i>🖥️ <b>Developer Observatory</b> live workspace &nbsp;&bull;&nbsp; 🪐 <b>Cosmic Language Orbit</b> top GitHub stack &nbsp;&bull;&nbsp; 🦅 <b>Sky Falcon</b> RPG fed by commits (🍎) &amp; LeetCode (⭐)</i>
 </p>
 
 ---

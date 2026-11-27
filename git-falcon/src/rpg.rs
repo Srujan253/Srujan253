@@ -3,7 +3,7 @@ use std::collections::BTreeSet;
 use chrono::NaiveDate;
 use serde::{Deserialize, Serialize};
 
-use crate::collect::ActivitySnapshot;
+use crate::collect::{ActivitySnapshot, LanguageStat};
 
 pub const MAX_RED_APPLES_PER_DAY: u32 = 3;
 pub const MAX_GOLDEN_APPLES_PER_DAY: u32 = 3;
@@ -90,6 +90,10 @@ pub struct FalconStats {
     pub is_resting: bool,
     pub speed_multiplier: f32,
     pub leetcode_total_solved: u32,
+    #[serde(default)]
+    pub languages: Vec<LanguageStat>,
+    #[serde(default)]
+    pub public_repo_count: u32,
 }
 
 pub fn cap_daily_apples(github_commits: u32, leetcode_solves: u32) -> (u32, u32) {
@@ -246,6 +250,8 @@ pub fn evaluate_falcon(snapshot: &ActivitySnapshot) -> FalconStats {
         is_resting,
         speed_multiplier,
         leetcode_total_solved: snapshot.leetcode_total_solved,
+        languages: snapshot.languages.clone(),
+        public_repo_count: snapshot.public_repo_count,
     }
 }
 

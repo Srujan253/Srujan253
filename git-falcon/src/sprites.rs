@@ -17,23 +17,45 @@ impl Rgb {
             (self.2 as f32 + (other.2 as f32 - self.2 as f32) * t) as u8,
         )
     }
+
+    pub fn from_hex(hex: &str) -> Rgb {
+        let h = hex.trim().trim_start_matches('#');
+        if h.len() == 6 {
+            if let (Ok(r), Ok(g), Ok(b)) = (
+                u8::from_str_radix(&h[0..2], 16),
+                u8::from_str_radix(&h[2..4], 16),
+                u8::from_str_radix(&h[4..6], 16),
+            ) {
+                return Rgb(r, g, b);
+            }
+        }
+        Rgb(169, 143, 247)
+    }
 }
 
 pub struct Canvas {
+    pub width: usize,
+    pub height: usize,
     pub pixels: Vec<u8>,
 }
 
 impl Canvas {
     pub fn new() -> Self {
+        Self::with_size(W, H)
+    }
+
+    pub fn with_size(width: usize, height: usize) -> Self {
         Self {
-            pixels: vec![0; W * H * 3],
+            width,
+            height,
+            pixels: vec![0; width * height * 3],
         }
     }
 
     #[inline]
     pub fn set(&mut self, x: i32, y: i32, c: Rgb) {
-        if x >= 0 && x < W as i32 && y >= 0 && y < H as i32 {
-            let idx = (y as usize * W + x as usize) * 3;
+        if x >= 0 && x < self.width as i32 && y >= 0 && y < self.height as i32 {
+            let idx = (y as usize * self.width + x as usize) * 3;
             self.pixels[idx] = c.0;
             self.pixels[idx + 1] = c.1;
             self.pixels[idx + 2] = c.2;
@@ -42,8 +64,8 @@ impl Canvas {
 
     #[inline]
     pub fn blend(&mut self, x: i32, y: i32, c: Rgb, alpha: f32) {
-        if x >= 0 && x < W as i32 && y >= 0 && y < H as i32 {
-            let idx = (y as usize * W + x as usize) * 3;
+        if x >= 0 && x < self.width as i32 && y >= 0 && y < self.height as i32 {
+            let idx = (y as usize * self.width + x as usize) * 3;
             let a = alpha.clamp(0.0, 1.0);
             self.pixels[idx] = (self.pixels[idx] as f32 * (1.0 - a) + c.0 as f32 * a) as u8;
             self.pixels[idx + 1] =
