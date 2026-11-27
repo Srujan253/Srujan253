@@ -1,0 +1,55 @@
+name: Falcon
+
+on:
+  schedule:
+    # Runs daily at 01:00 UTC, staggered away from Koi (00:20), Cards (00:40), and Bonsai (03:00)
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/falcon.yml
+      - git-falcon/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: falcon-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: git-falcon
+
+      - name: Run git-falcon
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cargo run --manifest-path git-falcon/Cargo.toml --release -- \
+            --github-user Srujan253 \
+            --leetcode-user SrujanHM \
+            --output-dir falcon
+
+      - name: Commit falcon updates
+        shell: bash
+        run: |
+          git add falcon
+          if git diff --cached --quiet; then
+            echo "Falcon unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "falcon: soar across the sky 🦅"
+          git pull --rebase origin main
+          git push origin main
