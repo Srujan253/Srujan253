@@ -2,7 +2,7 @@
   "snapshot": {
     "github_user": "Srujan253",
     "leetcode_user": "SrujanHM",
-    "observed_date": "2026-11-27",
+    "observed_date": "2026-11-28",
     "github_daily": {
       "2023-01-01": 0,
       "2023-01-02": 0,
@@ -1546,13 +1546,18 @@
       },
       {
         "name": "Python",
-        "repo_count": 5,
+        "repo_count": 4,
         "color_hex": "#3572A5"
       },
       {
         "name": "Jupyter Notebook",
         "repo_count": 2,
         "color_hex": "#DA5B0B"
+      },
+      {
+        "name": "Rust",
+        "repo_count": 1,
+        "color_hex": "#dea584"
       },
       {
         "name": "TypeScript",
@@ -1564,22 +1569,22 @@
   },
   "stats": {
     "level": 17,
-    "total_exp": 9280,
-    "xp_in_level": 320,
+    "total_exp": 9290,
+    "xp_in_level": 330,
     "xp_needed_for_next": 1155,
     "growth_stage": "PeregrineSwift",
-    "distance_km": 4032,
+    "distance_km": 4036,
     "biome": "NeonSkyline",
-    "total_red_apples": 528,
+    "total_red_apples": 529,
     "total_golden_apples": 160,
-    "today_red_apples": 3,
+    "today_red_apples": 1,
     "today_golden_apples": 0,
-    "recent_red_apples": 3,
+    "recent_red_apples": 4,
     "recent_golden_apples": 0,
-    "streak_days": 1,
+    "streak_days": 2,
     "quiet_days": 0,
     "is_resting": false,
-    "speed_multiplier": 1.08,
+    "speed_multiplier": 1.16,
     "leetcode_total_solved": 177,
     "languages": [
       {
@@ -1589,13 +1594,18 @@
       },
       {
         "name": "Python",
-        "repo_count": 5,
+        "repo_count": 4,
         "color_hex": "#3572A5"
       },
       {
         "name": "Jupyter Notebook",
         "repo_count": 2,
         "color_hex": "#DA5B0B"
+      },
+      {
+        "name": "Rust",
+        "repo_count": 1,
+        "color_hex": "#dea584"
       },
       {
         "name": "TypeScript",
